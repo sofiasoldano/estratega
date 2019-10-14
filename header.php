@@ -22,7 +22,16 @@
                 <img src="img/logo.png" alt="Estratega" width="246" class="img-responsive"> 
             </a>
         </div>
+        <div class="icon-menu visible-xs">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
         <div class="seccions-nav">
+            <div class="close-menu visible-xs">
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
             <ul>
                 <li>
                     <a class="<?php if ( $page_name == 'quienes') echo 'active'; ?>" href="page-quienes.php">Quienes somos</a>

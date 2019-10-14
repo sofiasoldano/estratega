@@ -7,6 +7,11 @@ jQuery(document).ready(function() {
         directionNav: false,
         controlNav: false
     });
-    
+    $('.icon-menu').click(function() {
+        $('header .seccions-nav').addClass("show");   
+    });
+    $('.close-menu').click(function() {
+        $('header .seccions-nav').removeClass("show");  
+    });
 });
     

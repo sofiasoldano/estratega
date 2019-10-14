@@ -117,7 +117,7 @@
 <section class="text-center">
     <div class="container">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     
                     <div class="image">
@@ -128,7 +128,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     <div class="image">
                         <div class="img-container">
@@ -138,7 +138,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     <div class="image">
                         <div class="img-container">
@@ -148,7 +148,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     <div class="image">
                         <div class="img-container">
@@ -158,7 +158,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     <div class="image">
                         <div class="img-container">
@@ -168,7 +168,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     <div class="image">
                         <div class="img-container">

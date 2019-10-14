@@ -45,10 +45,14 @@
         .video-container{
             .video{
                 border: 10px solid $white;
-                width: 47%;
-                display: inline-block;
-                margin-right: 2%;
-                margin-bottom: 2%;
+                width: 100%;
+                
+                @include respond-to('large'){
+                    width: 47%;
+                    display: inline-block;
+                    margin-right: 2%;
+                    margin-bottom: 2%;
+                }
             }
         }
     }

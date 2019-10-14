@@ -6,7 +6,7 @@
         <div class="col-md-12 text-center">
             <h2 class="title">Contáctenos</h2>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
             <div class="form-container">
                 <h3 class="subtitle"><img src="img/icon-consulta.png">Envíenos su consulta</h3>
                 <p class="desc">Complete el formulario y nos comunicaremos a la brevedad.</p>
@@ -35,7 +35,7 @@
                 </form>            
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
             <div class="form-container">
                 <h3 class="subtitle"><img src="img/icon-trabajar.png">Para trabajar con nosotros</h3>
                 <p class="desc">Complete el formulario y nos comunicaremos a la brevedad.</p>

@@ -14,14 +14,27 @@
                 display: inline-block;
                 margin-right: 1%;
                 margin-bottom: 1%;
+                
+                @include respond-to('xsmall'){
+                    width: 100%;
+                }
             }
         }
         
         .logos-list{
             li{
-                width: 24%;
+                width: 49%;
+                text-align: center;
                 display: inline-block;
                 margin-bottom: 50px;
+                
+                @include respond-to('medium'){
+                    width: 32%;
+                }
+                
+                @include respond-to('large'){
+                    width: 24%;
+                }
                 
                 img{
                     border-radius: 100%;

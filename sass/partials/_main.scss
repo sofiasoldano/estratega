@@ -5,4 +5,8 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
+     @include respond-to('xsmall'){
+         padding-top: 140px;
+    }
 }

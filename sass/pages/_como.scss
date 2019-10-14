@@ -48,8 +48,19 @@
         display: flex;
         align-items: center;
         
+        
+        @include respond-to('xsmall'){
+            display: block;
+            margin-bottom: 50px;
+        }
+        
         .circle{
             margin-right: 30px;
+            
+            @include respond-to('xsmall'){
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
         }
         
         .subtitle{

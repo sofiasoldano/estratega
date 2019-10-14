@@ -41,6 +41,10 @@
                     background: #e0e5ec;
                     padding: 15px;
                     
+                    @include respond-to('xsmall'){
+                        width: 100%;
+                    }
+                    
                     &::placeholder{
                         color: $blue;
                     }

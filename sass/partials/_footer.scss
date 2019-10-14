@@ -5,9 +5,19 @@ footer{
     padding: 10px 30px;
     background: $white;
     
+    @include respond-to('xsmall'){
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
     .copyright{
         font-family: 'Proxima Nova';
         font-size: 15px;
         color: #464646;
+        
+        @include respond-to('xsmall'){
+            margin-bottom: 20px;
+        }
     }
 }

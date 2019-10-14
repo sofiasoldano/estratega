@@ -19,9 +19,20 @@
         display: flex;
         align-items: center;
         
+        img{
+            @include respond-to('xsmall'){
+                display: none;
+            }
+        }
+        
         .description{
             max-width: 40%;
             position: relative;
+            
+            @include respond-to('xsmall'){
+                max-width: 100%;
+                padding: 20px;
+            }
             
             .close-member{
                 position: absolute;
