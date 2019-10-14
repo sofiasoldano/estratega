@@ -6,7 +6,7 @@
         </div>
         <div class="social-nav">
             <ul>
-                <li><a href="https://www.linkedin.com/company/estratega/" class="linkedin">Linked In</a></li>
+                <li><a href="#" class="linkedin">Linked In</a></li>
                 <li><a href="https://www.youtube.com/user/CanalEstratega" class="youtube">Youtube</a></li>
                 <li><a href="#" class="instagram">Instagram</a></li>
             </ul>

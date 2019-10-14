@@ -14,6 +14,7 @@ header{
             display: inline-block;
             margin: 0 20px;
             vertical-align: middle;
+            position: relative;
             
             a{
                 position: relative;
@@ -55,8 +56,62 @@ header{
                     background-size: 20px;
                     background-position: center;
                     border-radius: 30px;
+                    transition: none;
+                    position: relative;
+                    z-index: 2;
+                    
+                    &:after{
+                        display: none;
+                    }
                 }
             }
         }
     }
+    
+    .info-container{
+        
+        .info-dropdown{
+            position: absolute;
+            top: 55px;
+            right: -13px;
+            padding: 10px;
+            background: #acbcc2;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5s;
+            z-index: 1;
+
+            .novedades{
+                text-align: center;
+                background: #27282d;
+                color: $white;
+                font-size: 26px;
+                font-weight: lighter;
+                letter-spacing: 1px;
+                padding: 5px;
+                margin-top: -5px;
+
+                &:before{
+                    content: "";
+                    position: absolute;
+                    width: 55px;
+                    height: 100px;
+                    border-radius: 60px;
+                    background: rgba(174,189,195,1);
+                    top: -63px;
+                    right: 0;
+                    z-index: -1;
+                }
+            }
+        }
+        
+        &:hover{
+            .info-dropdown{
+                opacity: 1;
+                visibility: visible;
+                transition: all 0.5s;
+            }
+        }
+    }
+        
 }

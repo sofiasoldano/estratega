@@ -42,8 +42,12 @@
                  <li>
                     <a class="<?php if ( $page_name == 'contacto') echo 'active'; ?>" href="page-contacto.php">Contáctenos</a>
                 </li>
-                <li>
+                <li class="info-container">
                     <a class="info" href="#">Info</a>
+                    <div class="info-dropdown">
+                        <iframe class="video" width="390" height="220" src="https://www.youtube.com/embed/6DEeNXb2u1I" frameborder="0" allowfullscreen></iframe>
+                        <div class="novedades">Novedades</div>
+                    </div>
                 </li>
             </ul>
         </div>
