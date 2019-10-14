@@ -1,4 +1,5 @@
-jQuery(document).ready(function() {    
+jQuery(document).ready(function() {   
+    $('#initial-popup').modal()
     $('.home-slider').flexslider({
         animation: "slide",
         animationLoop: true,

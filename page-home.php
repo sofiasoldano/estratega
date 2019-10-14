@@ -1,6 +1,27 @@
 <?php $page_name = "home" ?>
 <?php include('header.php'); ?>
 
+<div class="modal fade" id="initial-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="title">¿A qué industria pertenece?</div>
+        <p>Diríjase a sus áreas de interés.</p>
+        <ul>
+            <li><a href="#" data-dismiss="modal" aria-label="Close">Banca y seguros</a></li>
+            <li><a href="#" data-dismiss="modal" aria-label="Close">Agro</a></li>
+            <li><a href="#" data-dismiss="modal" aria-label="Close">Consumo masivo y retail</a></li>
+            <li><a href="#" data-dismiss="modal" aria-label="Close">Oil & gas</a></li>
+            <li><a href="#" data-dismiss="modal" aria-label="Close">Logística</a></li>
+            <li><a href="#" data-dismiss="modal" aria-label="Close">Salud</a></li>
+            <li><a href="#" data-dismiss="modal" aria-label="Close">Otra</a></li>
+        </ul>
+    </div>
+  </div>
+</div>
+
 <section class="hero">
     <div class="home-slider flexslider">
         <ul class="slides">
