@@ -1,0 +1,33 @@
+.page-reconocimiento{
+    .reconocimiento{
+        width: 95%;
+        margin: 0 auto;
+        
+        .title{
+            margin-bottom: 50px;
+        }
+        
+        .video-container{
+            
+            .video{
+                width: 48%;
+                display: inline-block;
+                margin-right: 1%;
+                margin-bottom: 1%;
+            }
+        }
+        
+        .logos-list{
+            li{
+                width: 24%;
+                display: inline-block;
+                margin-bottom: 50px;
+                
+                img{
+                    border-radius: 100%;
+                    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.18);
+                }
+            }
+        }
+    }
+} 

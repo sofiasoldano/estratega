@@ -1,0 +1,77 @@
+.page-quienes{
+    .team{
+        .circle{
+            img{
+                filter: grayscale(1);
+                transition: all 0.5s;
+            }
+            
+            &:hover{
+                img{
+                    filter: grayscale(0);
+                    transition: all 0.5s;
+                }
+            }
+        }
+    }
+    .team-member{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+        .description{
+            max-width: 40%;
+            position: relative;
+            
+            .close-member{
+                position: absolute;
+                display: block;
+                width: 35px;
+                height: 35px;
+                background: rgba(172, 209, 200, 0.8);
+                border-radius: 100%;
+                top: -20px;
+                right: -20%;
+                transition: all 0.5s;
+                transform: rotate(45deg);
+
+                &:before, &:after{
+                    content: "";
+                    position: absolute;
+                    width: 20px;
+                    height: 5px;
+                    background: #fff;
+                    border-radius: 10px;
+                    top: 15px;
+                    left: 8px;
+                }
+
+                &:after{
+                    transform: rotate(90deg);
+                }
+            }
+            
+            .name{
+                color: $blue-gray;
+                text-align: left;
+                font-size: 38px;
+                font-weight: $semibold;
+            }
+            
+            .position{
+                color: #696969;
+                font-size: 21px;
+                font-weight: $semibold;
+                margin-bottom: 50px;
+            }
+            
+            p{
+                font-size: 25px;
+            }
+            
+            .social-nav{
+                margin-top: 30px;
+            }
+        }
+    }
+}

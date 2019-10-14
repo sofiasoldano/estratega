@@ -1,0 +1,56 @@
+.page-ondemand{
+    .title{
+        margin-bottom: 20px;
+    }
+
+    .ondemand{
+        width: 95%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        
+        .main-video{
+            border: 10px solid #c8cece;
+            background: #879999;
+            color: $white;
+            
+            .video{
+                width: 100%;
+                
+                img{
+                    width: 100%;
+                }
+            }
+            
+            .description{
+                padding: 10px;
+                
+                .video-title{
+                    font-size: 20px;
+                    font-weight: $semibold;
+                }
+                
+                .video-subtitle{
+                    font-size: 15px;
+                    font-style: italic;
+                    margin-bottom: 20px;
+                }
+                
+                p{
+                    font-size: 15px;
+                    font-style: italic;
+                }
+            }
+        }
+        
+        .video-container{
+            .video{
+                border: 10px solid $white;
+                width: 47%;
+                display: inline-block;
+                margin-right: 2%;
+                margin-bottom: 2%;
+            }
+        }
+    }
+    
+}

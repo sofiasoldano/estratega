@@ -1,0 +1,109 @@
+.circle{
+    .image{
+        position: relative;
+        width: 220px;
+        height: 220px;
+        margin: 35px auto;
+
+        .img-container{
+            width: 220px;
+            height: 220px;
+            border-radius: 100%;
+            overflow: hidden;
+            background: $white;
+            margin-bottom: 50px;
+            padding-top: 2px;
+
+
+            img{
+                width: 100%;
+                object-position: bottom;
+                object-fit: contain;
+            }
+        }
+
+        &:before{
+            content: "";
+            position: absolute;
+            display: block;
+            width: 220px;
+            height: 220px;
+            border-radius: 100%;
+            border: 4px solid transparent;
+            top: 0;
+            left: 0;
+            transition: all 0.5s;
+            z-index: 999;
+        }
+
+        &:after{
+            content: "";
+            position: absolute;
+            display: block;
+            width: 241px;
+            height: 241px;
+            border-radius: 100%;
+            border: 2px solid #e6e6e6;
+            top: -11px;
+            left: -11px;
+        }
+
+
+        .icon{
+            position: absolute;
+            display: block;
+            width: 55px;
+            height: 55px;
+            background: rgba(172, 209, 200, 0.8);
+            border-radius: 100%;
+            top: calc(50% - 27px);
+            left: calc(50% - 27px);
+            transition: all 0.5s;
+
+            &:before, &:after{
+                content: "";
+                position: absolute;
+                width: 28px;
+                height: 7px;
+                background: $white;
+                border-radius: 10px;
+                top: 24px;
+                left: 14px;
+            }
+
+            &:after{
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    &:hover{
+        .image{
+            &:before{
+                border: 4px solid $green;
+                transition: all 0.5s;
+            }
+
+            .icon{
+                transform: rotate(45deg);
+                transition: all 0.5s;
+            }
+        }
+    }
+    
+    &.small{
+        .image, .img-container, .image:before{
+            width: 200px;
+            height: 200px;
+            padding: 0;
+            background: transparent;
+        }
+        
+        .image:after{
+            width: 220px;
+            height: 220px;
+            top: -10px;
+            left: -10px;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.title{
+    color: $blue;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: $bold;
+    letter-spacing: 2px;
+}
+
+.subtitle{
+     color: $blue;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: $bold;
+    line-height: 1.1;
+}
+
+.name{
+    text-align: center;
+    font-size: 17px;
+    color: $blue;
+    margin-bottom: 5px;
+    
+    &.underline{
+        position: relative;
+        margin-bottom: 20px;
+        
+        &:after{
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: calc(50% - 25px);
+            width: 50px;
+            height: 3px;
+            background: $green;
+            transition: all 0.5s;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.page-como{
+    .heading{
+        p{
+            max-width: 920px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            font-size: 19px;
+        }
+    }
+    
+    .row{
+        justify-content: center;
+    }
+    
+    .circle{
+        p{
+            padding: 10px 15px;
+            margin-bottom: 0;
+        }
+        
+        .image{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+            &:before{
+                display: none;
+            }
+        }
+        
+        &.small{
+            .image, .img-container{
+                width: 170px;
+                height: 170px;
+                padding: 0;
+                background: transparent;
+            }
+
+            .image:after{
+                width: 190px;
+                height: 190px;
+                top: -10px;
+                left: -10px;
+            }
+        }
+    }
+    
+    .bottom{
+        display: flex;
+        align-items: center;
+        
+        .circle{
+            margin-right: 30px;
+        }
+        
+        .subtitle{
+            font-size: 21px;
+            margin-bottom: 5px;
+        }
+    }
+    
+    .desgloce{
+        .container{
+            max-width: 90%;
+            
+            p{
+                margin-bottom: 0;
+                
+                span{
+                    color: $blue;
+                }
+            }
+        }
+    }
+}
