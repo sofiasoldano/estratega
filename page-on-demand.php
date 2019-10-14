@@ -9,7 +9,7 @@
         </div>
         <div class="col-md-7">
             <div class="main-video">
-                <img class="video" src="img/ondemand-video.png">
+                <iframe class="video" width="477" height="477" src="https://www.youtube.com/embed/6DEeNXb2u1I" frameborder="0" allowfullscreen></iframe>
                 <div class="description">
                     <div class="video-title">Proyecto...</div>
                     <div class="video-subtitle">Campaña </div>
