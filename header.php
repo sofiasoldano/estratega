@@ -19,7 +19,8 @@
     <header>
         <div class="logo">
             <a href="page-home.php">
-                <img src="img/logo.png" alt="Estratega" width="246" class="img-responsive"> 
+                <img src="img/logo.png" alt="Estratega" width="246" class="img-responsive hidden-xs"> 
+                <img src="img/logo-mobile.png" alt="Estratega" width="105" class="img-responsive visible-xs"> 
             </a>
         </div>
         <div class="icon-menu visible-xs">

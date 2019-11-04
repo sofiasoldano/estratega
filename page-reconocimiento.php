@@ -6,7 +6,7 @@
         <div class="col-md-12 text-center">
             <div class="title">Reconocimiento</div>
         </div>
-        <div class="col-md-7 video-container">
+        <div class="col-md-7 video-container hidden-xs">
             <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/6DEeNXb2u1I" frameborder="0" allowfullscreen></iframe>
             <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/6DEeNXb2u1I" frameborder="0" allowfullscreen></iframe>
             <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/6DEeNXb2u1I" frameborder="0" allowfullscreen></iframe>

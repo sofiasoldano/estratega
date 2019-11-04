@@ -23,13 +23,15 @@
         
         .logos-list{
             li{
-                width: 49%;
+               width: 23%;
                 text-align: center;
                 display: inline-block;
                 margin-bottom: 50px;
+                padding: 10px;
                 
                 @include respond-to('medium'){
                     width: 32%;
+                    padding: 0;
                 }
                 
                 @include respond-to('large'){

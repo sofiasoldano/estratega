@@ -46,7 +46,10 @@
             .video{
                 border: 10px solid $white;
                 width: 100%;
-                
+                @include respond-to('xsmall'){
+                    width: 49%;
+                    display: inline-block;
+                }
                 @include respond-to('large'){
                     width: 47%;
                     display: inline-block;

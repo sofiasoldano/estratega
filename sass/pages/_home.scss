@@ -127,4 +127,19 @@
             }
         }
     }
+    
+    .circle{
+            &.small{
+                
+                @include respond-to('xsmall'){
+                    margin-left: -40px;
+                    margin-bottom: -50px;
+                    .image{
+                        transform: scale(0.6);
+                        display: block;
+                        margin-top: -10px;
+                    }
+                }
+            }
+        }
 }

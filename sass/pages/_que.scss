@@ -72,6 +72,41 @@
             }
         }
         
+        .circle{
+            @include respond-to('xxsmall'){
+                .image{
+                    margin-left: -30px;
+                }
+            }
+            @include respond-to('xsmall'){
+                .image{
+                    transform: scale(0.7);
+                    display: block;
+                    margin-top: -10px;
+                }
+            }
+            
+            &.small{
+                @include respond-to('xxsmall'){
+                .image{
+                    margin-left: -50px;
+                }
+            }
+                @include respond-to('xsmall'){
+                    .image{
+                        transform: scale(0.5);
+                        display: block;
+                        margin-top: -10px;
+                    }
+                }
+            }
+        }
+        .name{
+             @include respond-to('xxsmall'){
+                font-size: 16px;
+                margin: 0 -18px;
+            }
+        }
         .social-nav{
             margin-bottom: 30px;
         }
