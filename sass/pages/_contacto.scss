@@ -1,4 +1,7 @@
 .page-contacto{
+    @include respond-to('xsmall'){
+        padding-bottom: 30px;
+    }
     .title{
         margin-bottom: 50px;
     }

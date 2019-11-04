@@ -26,11 +26,12 @@
                width: 23%;
                 text-align: center;
                 display: inline-block;
-                margin-bottom: 50px;
-                padding: 10px;
+                margin-bottom: 34px;
+                padding: 5px;
                 
                 @include respond-to('medium'){
                     width: 32%;
+                    margin-bottom: 50px;
                     padding: 0;
                 }
                 
