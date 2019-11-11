@@ -115,9 +115,9 @@
 </section>
 
 <section class="text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-4 col-md-6 col-lg-4 col-xl-2">
+    <div class="container mobile-slider">
+        <div class="row slides">
+            <div class="col-4 slide col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     
                     <div class="image">
@@ -128,7 +128,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-4 col-md-6 col-lg-4 col-xl-2">
+            <div class="col-4 slide col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     <div class="image">
                         <div class="img-container">
@@ -138,7 +138,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-4 col-md-6 col-lg-4 col-xl-2">
+            <div class="col-4 slide col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     <div class="image">
                         <div class="img-container">
@@ -148,7 +148,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-4 col-md-6 col-lg-4 col-xl-2">
+            <div class="col-4 slide col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     <div class="image">
                         <div class="img-container">
@@ -158,7 +158,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-4 col-md-6 col-lg-4 col-xl-2">
+            <div class="col-4 slide col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     <div class="image">
                         <div class="img-container">
@@ -168,7 +168,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-4 col-md-6 col-lg-4 col-xl-2">
+            <div class="col-4 slide col-md-6 col-lg-4 col-xl-2">
                 <a href="#" class="circle small">
                     <div class="image">
                         <div class="img-container">
