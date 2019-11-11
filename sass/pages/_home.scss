@@ -27,18 +27,18 @@
         
         .flex-direction-nav a:before {
             font-family: "flexslider-icon";
-            font-size: 14px;
+            font-size: 10px;
             height: 30px;
             width: 30px;
             display: inline-block;
             content: '\f001';
-            color: rgba(0, 0, 0, 0.8);
-            text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+            color: rgba(0,0,0,0.8);
+            text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
             background: #a7aec5;
-            color: $white;
+            color: #fff;
             text-align: center;
             overflow: hidden;
-            padding-top: 7px;
+            padding-top: 8px;
             border-radius: 21px;
         }
         .flex-direction-nav a.flex-next:before {
