@@ -1,0 +1,88 @@
+.page-discovery{
+    .circle-discovery{
+        position: relative;
+        margin: 50px auto;
+        width: 695px;
+        max-width: 100%;
+        
+        > a{
+            @include respond-to('xsmall'){
+                transform: scale(0.8);
+            }
+        }
+        
+        @include respond-to('xsmall'){
+            padding: 30px;
+        }
+        
+        p{
+            margin: 3px 10px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 1.1;
+            
+            @include respond-to('medium'){
+                text-align: left;
+            }
+        }
+        
+        .circle-negocios{
+            position: absolute;
+            top: -41px;
+            left: calc(50% - 58px);
+            
+            @include respond-to('medium'){
+                
+            }
+        }
+        .circle-personas{
+            position: absolute;
+            top: calc(41% - 58px);
+            left: -9px;
+            
+            @include respond-to('medium'){
+                left: -130px;
+                display: flex;
+                align-items: center;
+                flex-direction: row-reverse;
+            }
+        }
+        .circle-transformacion{
+            position: absolute;
+            top: calc(41% - 58px);
+            right: -30px;
+            
+            @include respond-to('medium'){
+                right: -177px;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .circle-ti{
+            position: absolute;
+            bottom: -5%;
+            left: 6%;
+            
+            
+            @include respond-to('medium'){
+                 bottom: 2%;
+                left: 13%;
+                display: flex;
+                align-items: center;
+                flex-direction: row-reverse;
+            }
+        }
+        .circle-operaciones{
+            position: absolute;
+            bottom: -9%;
+            right: -11px;
+            
+            @include respond-to('medium'){
+                bottom: 4%;
+                right: -14%;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
